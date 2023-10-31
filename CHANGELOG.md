@@ -1,5 +1,11 @@
 # @guidanoli/changeset-test
 
+## 1.3.0
+
+### Minor Changes
+
+- 99d1533: Add release script
+
 ## 1.2.0
 
 ### Minor Changes
