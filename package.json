@@ -7,7 +7,7 @@
   "scripts": {
     "release": "yarn changeset publish"
   },
-  "dependencies": {
+  "devDependencies": {
     "@changesets/cli": "^2.26.2"
   }
 }
