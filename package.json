@@ -4,6 +4,9 @@
   "description": "Testing changesets",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "release": "yarn changeset publish"
+  },
   "dependencies": {
     "@changesets/cli": "^2.26.2"
   }
