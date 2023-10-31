@@ -1,5 +1,11 @@
 # @guidanoli/changeset-test
 
+## 1.3.1
+
+### Patch Changes
+
+- 0d8556d: Fix access to public in changeset config
+
 ## 1.3.0
 
 ### Minor Changes
