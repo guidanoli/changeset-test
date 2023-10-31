@@ -1,5 +1,11 @@
 # @guidanoli/changeset-test
 
+## 1.3.2
+
+### Patch Changes
+
+- 3efc7a1: Make `@changesets/cli` a dev dependency
+
 ## 1.3.1
 
 ### Patch Changes
