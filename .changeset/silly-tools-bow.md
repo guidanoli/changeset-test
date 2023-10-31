@@ -1,5 +1,5 @@
 ---
-"changeset-test": minor
+"@guidanoli/changeset-test": minor
 ---
 
 Added `index.js`
