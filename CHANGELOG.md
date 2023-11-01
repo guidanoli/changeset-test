@@ -1,5 +1,12 @@
 # @guidanoli/changeset-test
 
+## 1.4.0
+
+### Minor Changes
+
+- b102a2e: Define `year`
+- 8557a58: Defined `port`
+
 ## 1.3.2
 
 ### Patch Changes
