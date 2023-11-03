@@ -3,9 +3,13 @@
   "version": "1.4.0",
   "description": "Testing changesets",
   "main": "index.js",
+  "files": [
+      "example"
+  ],
   "license": "MIT",
   "scripts": {
-    "release": "yarn changeset publish"
+    "release": "yarn changeset publish",
+    "prepack": "touch example"
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.2"
