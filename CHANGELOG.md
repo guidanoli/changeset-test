@@ -1,5 +1,11 @@
 # @guidanoli/changeset-test
 
+## 1.5.0
+
+### Minor Changes
+
+- a826fcc: Add prepack step test
+
 ## 1.4.0
 
 ### Minor Changes
