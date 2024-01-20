@@ -1,5 +1,15 @@
 # @guidanoli/changeset-test
 
+## 1.5.2
+
+### Patch Changes
+
+- db760da: Long change
+
+  - list here
+
+  another text here.
+
 ## 1.5.1
 
 ### Patch Changes
