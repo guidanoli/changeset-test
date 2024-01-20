@@ -1,5 +1,14 @@
 # @guidanoli/changeset-test
 
+## 1.5.1
+
+### Patch Changes
+
+- 533ee32: My change with a list
+
+  - bread
+  - hamburger
+
 ## 1.5.0
 
 ### Minor Changes
