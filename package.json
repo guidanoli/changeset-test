@@ -1,6 +1,6 @@
 {
   "name": "@guidanoli/changeset-test",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "description": "Testing changesets",
   "main": "index.js",
   "files": [

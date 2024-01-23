@@ -1,5 +1,21 @@
 # @guidanoli/changeset-test
 
+## 1.5.3
+
+### Patch Changes
+
+- 1ac3690: My change with nested lists
+
+  - List here
+
+    - Sublist: blablabla.
+      Here I continue...
+
+    - More items: hahaha
+      hohoho....
+
+  The end.
+
 ## 1.5.2
 
 ### Patch Changes
