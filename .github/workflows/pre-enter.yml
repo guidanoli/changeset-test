@@ -51,6 +51,6 @@ jobs:
             --base main \
             --head "HEAD_BRANCH" \
             --title "Enter pre-release mode with tag ${{ inputs.tag }}" \
-            --body "Runs `yarn changeset pre enter `${{ inputs.tag }}`."
+            --body "This PR was opened by a GitHub Actions bot."
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
