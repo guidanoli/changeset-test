@@ -47,6 +47,10 @@ jobs:
           git add .
           git commit -m "chore: enter prelease mode with tag ${{ inputs.tag }}"
           git push origin "$HEAD_BRANCH"
-          gh pr create --title "Enter pre-release mode with tag ${{ inputs.tag }}" --base main --head "HEAD_BRANCH"
+          gh pr create \
+            --base main \
+            --head "HEAD_BRANCH" \
+            --title "Enter pre-release mode with tag ${{ inputs.tag }}" \
+            --body "Runs `yarn changeset pre enter `${{ inputs.tag }}`."
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
