@@ -1,0 +1,50 @@
+name: Enter pre-release mode
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Pre-release tag
+        required: true
+        default: rc
+        type: string
+
+permissions:
+    actions: write
+    contents: write
+    id-token: write
+    packages: write
+    pull-requests: write
+
+jobs:
+  pre-enter:
+    name: Enter pre-release mode
+    runs-on: ubuntu-latest
+    env:
+      HEAD_BRANCH: "pre/${{ inputs.tag }}"
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Create Pre-release branch
+        run: git checkout -b "$HEAD_BRANCH"
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install Dependencies
+        run: yarn
+
+      - name: Enter pre-release mode
+        run: yarn changeset pre enter "${{ inputs.tag }}"
+
+      - name: Commit and push changes
+        run: |
+          git add .
+          git commit -m "chore: enter prelease mode with tag ${{ inputs.tag }}"
+          git push origin "$HEAD_BRANCH"
+          gh pr create --title "Enter pre-release mode with tag ${{ inputs.tag }}" --base main --head "HEAD_BRANCH"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
