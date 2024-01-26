@@ -1,0 +1,8 @@
+{
+  "mode": "pre",
+  "tag": "rc",
+  "initialVersions": {
+    "@guidanoli/changeset-test": "1.5.3"
+  },
+  "changesets": []
+}
