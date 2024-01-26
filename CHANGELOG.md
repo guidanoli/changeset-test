@@ -1,5 +1,11 @@
 # @guidanoli/changeset-test
 
+## 1.6.0-rc.0
+
+### Minor Changes
+
+- 8f5a57a: My minor change
+
 ## 1.5.3
 
 ### Patch Changes

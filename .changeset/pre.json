@@ -4,5 +4,7 @@
   "initialVersions": {
     "@guidanoli/changeset-test": "1.5.3"
   },
-  "changesets": []
+  "changesets": [
+    "grumpy-ties-invent"
+  ]
 }
