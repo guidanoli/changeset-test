@@ -5,6 +5,7 @@
     "@guidanoli/changeset-test": "1.6.0"
   },
   "changesets": [
-    "rare-cherries-eat"
+    "rare-cherries-eat",
+    "wet-lights-lie"
   ]
 }

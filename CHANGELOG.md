@@ -1,5 +1,11 @@
 # @guidanoli/changeset-test
 
+## 1.7.0-alpha.1
+
+### Minor Changes
+
+- 5a1fb28: Add tau
+
 ## 1.7.0-alpha.0
 
 ### Minor Changes
