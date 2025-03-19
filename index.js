@@ -4,3 +4,4 @@ export const bar = 777;
 export const port = 7070;
 export const year = 2023;
 export const pi = 3.14;
+export const tau = 2 * pi;
