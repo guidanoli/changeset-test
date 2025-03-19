@@ -1,5 +1,11 @@
 # @guidanoli/changeset-test
 
+## 1.7.0-alpha.0
+
+### Minor Changes
+
+- 66981c4: Add pi
+
 ## 1.6.0
 
 ### Minor Changes

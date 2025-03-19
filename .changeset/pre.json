@@ -4,5 +4,7 @@
   "initialVersions": {
     "@guidanoli/changeset-test": "1.6.0"
   },
-  "changesets": []
+  "changesets": [
+    "rare-cherries-eat"
+  ]
 }
